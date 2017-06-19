@@ -14,7 +14,7 @@ izverev@logrocon.com
 
 ##Новый проект в VSTS
 
-1. Необходимо авторизоваться в VSTS
+1. Необходимо авторизоваться в VSTS https://app.vsaex.visualstudio.com/me?campaign=o~msft~vscom~signin
 2. Создать новый проект
 3. После создания проекта выбрать опцию "or import a repository"
 4. Импортировать код из  github по ссылке https://github.com/aprilix/JavaDemo
