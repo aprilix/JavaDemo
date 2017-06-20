@@ -66,7 +66,7 @@ izverev@logrocon.com
 23. запустим его (без sudo!): ```./linuxSetup.sh``` 
 24. скрипт установит весь необходимый софт включая build agent для VSTS
 25. Настроим build agent:
-26. ```ls Agents/a1```
+26. ```cd Agents/a1```
 27. ```./config.sh```
 28. Выполняем указания мастера:
 29. Соглашаемся на EULA
