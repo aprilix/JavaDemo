@@ -2,11 +2,15 @@
 
 
 **Илья Зверев**
+
 Logrocon Software Engineering
+
 izverev@logrocon.com
 
 
 [TOC]
+
+
 ## Установка пререквизитов на рабочую машину.
 1. Docker Toolbox https://www.docker.com/products/docker-toolbox 
    обязательно установить **Docker Client for Windows** и **Docker Machine for Windows**
@@ -31,7 +35,13 @@ izverev@logrocon.com
 8. Вторым - Maven. Выберем Code Coverage Tool - JaCoCo
 9. Сохраним и запустим.
 
-##Создание Docker Окружения
+## Развертывание SonarQube
+
+1. Используем шаблон по ссылке https://github.com/Azure/azure-quickstart-templates/tree/master/sonarqube-azuresql
+2. Все параметры - по умолчанию
+3. Подключаем с помощью токена по мере готовности (например в Maven таске)
+
+## Создание Docker Окружения
 
 1. В проекте уже есть Docker File, необходимо подготовить окружение для работы с ним
 2. Нам потребуется: 
